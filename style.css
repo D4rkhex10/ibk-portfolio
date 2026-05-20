@@ -17,11 +17,6 @@
 body {
     margin: 0;
     background-color: var(--paper);
-    background-image: url('assets/pdf_acrobat_9836.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     color: var(--ink);
     font-family: var(--font);
 }
