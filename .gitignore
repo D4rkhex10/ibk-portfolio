@@ -1,0 +1,4 @@
+*.bak
+*.bak-new
+*.zip
+.DS_Store
