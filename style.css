@@ -4,9 +4,9 @@
     --line: #e5e5e5;
     --paper: #ffffff;
     --soft: #f1f1f1;
-    --red: #111112;
-    --deep-red: #0a0a0b;
-    --accent: #C7BC9A;
+    --red: #d4141d;
+    --deep-red: #9f0710;
+    --accent: var(--red);
     --font: "DM Sans", Arial, sans-serif;
 }
 
@@ -64,7 +64,7 @@ a {
     justify-content: center;
     padding: 0 26px;
     border-radius: 999px;
-    background: var(--ink);
+    background: var(--red);
     color: #fff;
     font-weight: 700;
 }
@@ -459,8 +459,8 @@ a {
     position: absolute;
     inset: 0;
     background:
-        linear-gradient(90deg, rgba(11, 11, 12, 0.54), rgba(11, 11, 12, 0.14) 45%, rgba(11, 11, 12, 0.7)),
-        linear-gradient(180deg, rgba(11, 11, 12, 0.22), rgba(11, 11, 12, 0.7));
+        linear-gradient(90deg, rgba(120, 0, 7, 0.54), rgba(212, 20, 29, 0.14) 45%, rgba(80, 0, 5, 0.7)),
+        linear-gradient(180deg, rgba(212, 20, 29, 0.22), rgba(100, 0, 8, 0.7));
 }
 
 .portfolio-hero-copy {
@@ -593,7 +593,7 @@ a {
 }
 
 .awards-overlay {
-    background: linear-gradient(145deg, rgba(11, 11, 12, 0.88), rgba(11, 11, 12, 0.68));
+    background: linear-gradient(145deg, rgba(229, 23, 32, 0.88), rgba(150, 0, 8, 0.68));
 }
 
 .awards-section h2 {
@@ -802,11 +802,11 @@ a {
     margin-bottom: 34px;
 }
 
-.footer-cta {
+a.footer-cta {
     width: fit-content;
     min-height: 44px;
-    background: var(--accent);
-    color: var(--ink);
+    background: var(--paper);
+    color: var(--red);
 }
 
 .footer nav,
